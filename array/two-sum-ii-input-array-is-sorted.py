@@ -7,5 +7,5 @@ class Solution:
                 return [left+1,right+1]
             elif sum < target :
                 left=left+1
-            else 
+            else :
                 right = right-1
