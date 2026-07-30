@@ -4,7 +4,7 @@ class Solution:
         sum,max=0,0
         for i in range (k):
             sum= sum+nums[i]
-            max=sum
+        max=sum
         for j in range(k,len(nums)):
             sum = sum-(nums[left])+(nums[right+1])
             left+=1
